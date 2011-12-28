@@ -28,7 +28,8 @@ $THEME->parents = array(
 );
 
 $THEME->sheets = array(
-    'colors'
+    'colors',
+	'css3'
 );
 
 $THEME->hidefromselector = false;
