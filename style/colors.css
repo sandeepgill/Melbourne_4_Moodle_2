@@ -74,13 +74,16 @@ thead {
 .generaltable,
 fieldset,
 .mform fieldset,
-table {
+table,
+ul.weeks {
 	border: 1px solid #f160a8;
 	background: #314e70;
 }
 
-.block .box {
+.block .box,
+.block_docked .box {
 	border: 0 none;
+	background: transparent;
 }
 
 #region-main {
@@ -98,6 +101,13 @@ table {
 
 .mform .error,
 .mform .required,
-.mform .fdescription.required {
+.mform .fdescription.required,
+.red,
+.notifyproblem {
 	color: #f00;
+}
+
+.course-content .current {
+	background: #ccc;
+	color: #333;
 }
