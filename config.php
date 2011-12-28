@@ -26,7 +26,6 @@
 $THEME->name = 'melbourne';
 
 $THEME->parents = array(
-    'canvas',
     'base'
 );
 
