@@ -29,7 +29,8 @@
 .generaltable,
 fieldset,
 .mform fieldset,
-table {
+table,
+ul.weeks {
 	background: rgba(49, 78, 112, 0.75); // rgb value of #314e70
 }
 
