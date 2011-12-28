@@ -57,13 +57,13 @@ a:hover {
 .block {
 	border: 1px solid #f160a8;
 }
+
 .sitetopic,
-.forumpost,
 .coursebox,
 .categorybox,
 .course_category_tree {
 	border: 1px solid #f160a8;
-	background: #314e70;
+	background: #314e70; // fallback
 }
 
 #region-main {
