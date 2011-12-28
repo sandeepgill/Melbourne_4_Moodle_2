@@ -18,3 +18,21 @@
  * @copyright  2011 Danny Wahl
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+.forumpost {
+	border: 1px solid #f160a8;
+	background: #314e70; // fallback
+}
+
+.forumpost .header {
+	background: #ccc;
+	color: #333;
+}
+
+.forumpost .maincontent .no-overflow {
+	padding: 4px;
+}
+
+.forumpost .options {
+	padding: 0 4px 4px;
+}
