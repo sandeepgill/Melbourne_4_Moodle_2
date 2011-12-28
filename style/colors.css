@@ -21,8 +21,14 @@
 
 html,
 #dock,
-.block .content {
+.block .content,
+.pagelayout-report #report-main-content .region-content table,
+tbody.empty {
 	background: #314e70;
+	color: #f6f6f6;
+}
+
+legend {
 	color: #f6f6f6;
 }
 
@@ -45,7 +51,8 @@ a:hover {
 
 #page-header,
 #page-footer,
-.block {
+.block,
+thead {
 	background: #ccc;
 	color: #333;
 }
@@ -61,11 +68,36 @@ a:hover {
 .sitetopic,
 .coursebox,
 .categorybox,
-.course_category_tree {
+.course_category_tree,
+.box,
+.generalbox,
+.generaltable,
+fieldset,
+.mform fieldset,
+table {
 	border: 1px solid #f160a8;
-	background: #314e70; // fallback
+	background: #314e70;
+}
+
+.block .box {
+	border: 0 none;
 }
 
 #region-main {
 	background: url([[pix:theme|core/background]]) no-repeat scroll right top transparent;
+}
+
+#page-footer {
+	border-top: 1px solid #d1293e;
+}
+
+.r0,
+.r1 {
+	border-bottom: 1px solid #F160A8;
+}
+
+.mform .error,
+.mform .required,
+.mform .fdescription.required {
+	color: #f00;
 }
