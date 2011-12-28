@@ -23,27 +23,69 @@
 .forumpost,
 .coursebox,
 .categorybox,
-.course_category_tree {
+.course_category_tree,
+.box,
+.generalbox,
+.generaltable,
+fieldset,
+.mform fieldset,
+table {
 	background: rgba(49, 78, 112, 0.75); // rgb value of #314e70
 }
 
 #page-header:before {
-	content: "";
-	height: 217px;
-	width: 217px;
+	content: url([[pix:theme|core/headerbg]]);
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url([[pix:theme|core/headerbg]]);
+	height: 190px;
+	width: 217px;
 }
 
 #page-header:after {
-	content: "";
+	content: url([[pix:theme|core/logo]]);
 	height: 107px;
 	width: 107px;
 	position: absolute;
 	top: 4px;
 	left: 4px;
 	visibility: visible;
-	background: url([[pix:theme|core/logo]]);
+}
+
+#page-header {
+	padding-top: 30px;
+	background: -moz-linear-gradient(top,  rgba(49,78,112,1) 0, rgba(49,78,112,1) 30px, rgba(255,255,255,1) 30px, rgba(204,204,204,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(49,78,112,1) 0,rgba(49,78,112,1) 30px,rgba(255,255,255,1) 30px,rgba(204,204,204,1) 100%);
+	background: -o-linear-gradient(top,  rgba(49,78,112,1) 0,rgba(49,78,112,1) 30px,rgba(255,255,255,1) 30px,rgba(204,204,204,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(49,78,112,1) 0,rgba(49,78,112,1) 30px,rgba(255,255,255,1) 30px,rgba(204,204,204,1) 100%);
+	background: linear-gradient(top,  rgba(49,78,112,1) 0,rgba(49,78,112,1) 30px,rgba(255,255,255,1) 30px,rgba(204,204,204,1) 100%);
+}
+
+#page-content:before {
+	content: url([[pix:theme|core/contentleft]]);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 27px;
+	width: 38px;
+	z-index: 1;
+}
+
+#page-footer {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(204,204,204,1) 25%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(25%,rgba(204,204,204,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 25%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 25%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 25%);
+	background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 25%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
+
+}
+
+.headermain,
+.block .header,
+.forumpost .subject,
+thead {
+	font-variant: small-caps;
+    text-shadow: 0 1px 0 #fff; 
 }
