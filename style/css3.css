@@ -26,3 +26,24 @@
 .course_category_tree {
 	background: rgba(49, 78, 112, 0.75); // rgb value of #314e70
 }
+
+#page-header:before {
+	content: "";
+	height: 217px;
+	width: 217px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url([[pix:theme|core/headerbg]]);
+}
+
+#page-header:after {
+	content: "";
+	height: 107px;
+	width: 107px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	visibility: visible;
+	background: url([[pix:theme|core/logo]]);
+}
