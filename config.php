@@ -29,6 +29,10 @@ $THEME->parents = array(
     'base'
 );
 
+$THEME->sheets = array(
+    'colors'
+);
+
 $THEME->hidefromselector = false;
 
 $THEME->enable_dock = true;
