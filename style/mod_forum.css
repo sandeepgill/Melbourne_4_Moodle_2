@@ -29,6 +29,11 @@
 	color: #333;
 }
 
+.forumpost .subject {
+	font-weight: bold;
+	font-size: 16px;
+}
+
 .forumpost .maincontent .no-overflow {
 	padding: 4px;
 }
