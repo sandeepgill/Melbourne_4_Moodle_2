@@ -28,7 +28,9 @@ $THEME->parents = array(
 );
 
 $THEME->sheets = array(
+	'general',
     'colors',
+	'mod_forum',
 	'css3'
 );
 
