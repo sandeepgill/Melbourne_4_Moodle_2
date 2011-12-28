@@ -15,8 +15,6 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Theme version info
- *
  * @package    theme
  * @subpackage melbourne
  * @copyright  2011 Danny Wahl

@@ -15,8 +15,6 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * melbourne theme English language strings
- *
  * @package    theme_melbourne
  * @copyright  2011 Danny Wahl
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
