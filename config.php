@@ -30,6 +30,7 @@ $THEME->parents = array(
 $THEME->sheets = array(
 	'general',
     'colors',
+	'custommenu',
 	'mod_forum',
 	'css3'
 );
