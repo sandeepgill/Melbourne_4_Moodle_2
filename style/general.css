@@ -66,3 +66,7 @@
 #page-footer:after {
 	content: ""; //Fix weird height issue with clearfix class
 }
+
+#page-footer {
+	padding: 10px 0;
+}
