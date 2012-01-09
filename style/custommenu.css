@@ -29,7 +29,8 @@
 
 /* Top menu */ 
 #custommenu .yui3-menu-label-active,
-#custommenu .yui3-menu-label-menuvisible {
+#custommenu .yui3-menu-label-menuvisible,
+#custommenu .yui3-menuitem-active {
 	background: #D1293E;
 	border-radius: 5px 5px 0 0;
 }
