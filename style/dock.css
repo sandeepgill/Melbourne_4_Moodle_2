@@ -18,3 +18,47 @@
  * @copyright  2011 Danny Wahl
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+#dock {
+	border-right: 1px solid #F160A8;
+	background: #fff!important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(204,204,204,1) 100%)!important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(204,204,204,1)))!important;
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%)!important;
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%)!important;
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%)!important;
+	background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 )!important;
+}
+
+#dock .dockedtitle {
+	border-bottom: 1px solid transparent; /* need this for YUI */
+	border-top: 1px solid transparent; /* need this for YUI */
+	border-radius: 5px 0 0 5px;
+	color: #000;
+	margin: 2px 0 0 2px;
+}
+
+#dock .dockedtitle.activeitem {
+	background-color: #D1293E;
+}
+
+#dockeditempanel .dockeditempanel_content {
+	background-color: #314E70;
+	border-color: #F160A8;
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+#dockeditempanel .dockeditempanel_hd {
+	background: #ccc;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	border-bottom: 1px solid #ccc; /* need this for YUI */
+	padding: 6px;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 {
+	float: left;
+}
