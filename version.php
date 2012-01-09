@@ -26,5 +26,5 @@ defined('MOODLE_INTERNAL') || die;
 $plugin->component = 'theme_melbourne';
 $plugin->maturity  = MATURITY_ALPHA;
 $plugin->version   = 2011122800;
-$plugin->release = '2.0 (Build: 2011122800)';
+$plugin->release = '2.2.1 (Build: 2012010900)';
 $plugin->requires  = 2011120100;
