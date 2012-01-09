@@ -31,6 +31,7 @@ $THEME->sheets = array(
 	'general',
     'colors',
 	'custommenu',
+	'dock',
 	'mod_forum',
 	'css3'
 );
