@@ -61,6 +61,7 @@
 .coursebox,
 .course_category_tree {
 	padding: 4px;
+	margin-bottom: 5px;
 }
 
 #page-footer:after {
